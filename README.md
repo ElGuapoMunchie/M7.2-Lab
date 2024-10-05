@@ -2,23 +2,15 @@
 
 ## Overview
 
-TODO: Write a project description
+This project was an excercise in creating a website layout given several images, and base html code. Only the css needed to be edited in order to make the changes, which include implementing a menu bar that sticks to the top of the page when you scroll past it, a two-column layout for the article and images section, and a grid where the images are displayed.
+
+## Compiling and Viewing the Webpage
+
+First, clone this repository into a new directory on your local machine. Then, you may view the webpage by opening the directory in `VSCode` and display it either by using the `LivePreview` extension, or by debugging the website.
+
+Alternatively, you can launch the website by calling `open index.html` in your terminal application after navigating to the directory where the files are stored.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+There were no external sources needed for this assignment. The template for this repo can be found at
+[this link here](https://github.com/shanep/web-dev-starter).
