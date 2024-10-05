@@ -21,17 +21,27 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+
+    display: grid; /* Make the page appear as two columns */
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    flex: 200px;
   }
   
   nav {
     background-color: #000;
     padding: .5em;
+    position: sticky;             /* Make nav bar stick to top of page when scrolling */
+    top: 0px;
   }
   
   nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;                  /* Put nav buttons into row */
+    align-items: center;
+    justify-content: space-around;
   }
   
   nav a {
@@ -44,8 +54,14 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+
+    display: grid; /* Make it so the pictures in grid are in a grid */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
   }
 
   .feature {
-      width: 200px;
+    float: left;      /* Make img in article have inline text around it */
+    padding: 10px;
+    width: 200px;
   }
